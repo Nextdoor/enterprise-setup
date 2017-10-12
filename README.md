@@ -4,10 +4,12 @@ This package allows you to easily orchestrate your CCIE cluster in AWS using Ter
 
 This branch is particularly aimed at the Customer Engineering team and incorporates, essentially, these four open pull requests:
 
-https://github.com/circleci/enterprise-setup/pull/54
-https://github.com/circleci/enterprise-setup/pull/49
-https://github.com/circleci/enterprise-setup/pull/44
-https://github.com/circleci/enterprise-setup/pull/7
+- https://github.com/circleci/enterprise-setup/pull/54
+- https://github.com/circleci/enterprise-setup/pull/49
+- https://github.com/circleci/enterprise-setup/pull/44
+- https://github.com/circleci/enterprise-setup/pull/7
+
+It also automatically scales the 1.0 and 2.0 builder autoscaling groups down every night, and back up every morning, and will stop/start the services box along a similar schedule. You can configure the schedule yourself in the `terraform.tfvars` file.
 
 # Getting Started
 
