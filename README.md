@@ -22,7 +22,7 @@ It also automatically scales the 1.0 and 2.0 builder autoscaling groups down eve
 ### Basic
 
 1. Clone or download this repository
-1. Execute `make init` or save a copy of `terraform.tfvars.template` as `terraform.tfvars`
+1. Execute `make init`
 1. Run `terraform init` to install required plugins
 1. Fill in the configuration vars in `terraform.tfvars` for your cluster. see [Configuration](#configuration)
 1. Run `terraform apply`
