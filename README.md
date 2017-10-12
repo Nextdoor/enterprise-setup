@@ -2,6 +2,13 @@
 
 This package allows you to easily orchestrate your CCIE cluster in AWS using Terraform.
 
+This branch is particularly aimed at the Customer Engineering team and incorporates, essentially, these four open pull requests:
+
+https://github.com/circleci/enterprise-setup/pull/54
+https://github.com/circleci/enterprise-setup/pull/49
+https://github.com/circleci/enterprise-setup/pull/44
+https://github.com/circleci/enterprise-setup/pull/7
+
 # Getting Started
 
 ## Pre Reqs
@@ -41,7 +48,7 @@ ansible_extra_vars = {
 
 ## Configuration
 
-To configure the cluster that terraform will create, simply fill out the terraform.tfvars file. The following are all required vars:
+To configure the cluster that terraform will create, simply fill out the terraform.tfvars file. The following are all required vars (Customer Engineering Team: further config instructions are in the terraform.tfvars.template file as comments):
 
   | Var      | Description |
   | -------- | ----------- |
